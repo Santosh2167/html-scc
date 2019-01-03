@@ -5,4 +5,33 @@
 body {
   background: khaki; }
 
+.section-container {
+  display: flex;
+  width: 100%; }
+
+.section-container {
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  background: blue;
+  margin: auto;
+  position: fixed; }
+
+.menuItems-holder {
+  justify-content: space-around;
+  position: fixed; }
+
+.menu-items {
+  list-style: none;
+  display: none; }
+  .menu-items li a {
+    text-decoration: none;
+    color: black; }
+
+.hamburger {
+  color: white;
+  padding: 5px 5px 0 0; }
+  .hamburger i {
+    font-size: 30px; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,39 @@
+@import "./../common/mixins.scss";
+
+.section-container {
+    @extend %section-container;
+    justify-content: center;
+    height: 30px;
+    width:100%;
+    background: blue;
+    margin: auto;
+    position:fixed;
+}
+
+.menuItems-holder {
+    //@extend %section-container;
+    // background: red;
+    justify-content: space-around;
+    position: fixed;
+
+}
+
+.menu-items{
+    
+    list-style: none;
+    display: none;
+      li a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+}
+
+.hamburger {
+    color:white;
+    padding: 5px 5px 0 0;
+     i {
+        font-size: 30px;
+     }
+}
